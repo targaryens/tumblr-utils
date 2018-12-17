@@ -1,10 +1,10 @@
-#mac install instructions
+# #mac install instructions
 
 This is a basic overview of how to backup a tumblr via tumblr-utils using a Mac - for any code issues, best to contact the owner of the original repo: https://github.com/bbolli/tumblr-utils 
 
 I'm happy to help with mac commands etc.
 
-#check python installation status
+## #check python installation status
 1. Open Terminal - to find Terminal, open the Launchpad and type in Terminal in the search bar.
 2. Run the following command: python -V
 3. If the terminal comes back with a Python version, you're good to go.
@@ -12,7 +12,7 @@ I'm happy to help with mac commands etc.
 https://docs.python-guide.org/starting/install3/osx/ 
 5. Keep Terminal open
 
-#download the tumblr backup files
+## #download the tumblr backup files
 1. Download the zip file of this repo
 
 ![alt text](https://github.com/targaryens/tumblr-utils/blob/master/download%20zip.png)
