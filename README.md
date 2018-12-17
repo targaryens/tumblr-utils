@@ -1,26 +1,33 @@
-# tumblr-utils
+#mac install instructions
 
-This is a collection of utilities dealing with Tumblr blogs.
+This is a basic overview of how to backup a tumblr via tumblr-utils using a Mac - for any code issues, best to contact the owner of the original repo: https://github.com/bbolli/tumblr-utils 
 
-- `tumble.py` creates new posts from RSS or Atom feeds
-- `tumblr_backup.py` makes a local backup of posts and images
-- `mail_export.py` mails tagged links to a recipient list
+I'm happy to help with mac commands etc.
 
-These scripts are or have been useful to me over the years.
+#check python installation status
+1. Open Terminal - to find Terminal, open the Launchpad and type in Terminal in the search bar.
+2. Run the following command: python -V
+3. If the terminal comes back with a Python version, you're good to go.
+4. If you don't have Python, follow the instructions in the link:
+https://docs.python-guide.org/starting/install3/osx/ 
+5. Keep Terminal open
 
-More documentation can be found in each script's docstring or in
-[tumblr_backup.md](https://github.com/bbolli/tumblr-utils/blob/master/tumblr_backup.md).
+#download the tumblr backup files
+1. Download the zip file of this repo
 
-The utilities run under Python 2.7.
+![alt text](https://github.com/targaryens/tumblr-utils/blob/master/download%20zip.png)
 
-### Notice
 
-On 2015-06-04, I made the v2 API the default on the master branch. The former
-master branch using the v1 API is still available on Github as `api-v1`, but
-will no longer be updated. The one feature that's only available with the old
-API is the option to backup password-protected blogs. There's no way to pass
-a password in Tumblr's v2 API.
+2. Unzip the file
+3. Open the 'tumblr-utils-master' folder
+4. Look for the 'tumblr-backup.py' file
+5. Drag the file into Terminal
+6. Once the file is in Terminal you will see a line that looks something like: ```'/Users/yourcoolname/Downloads/tumblr-utils-master/tumblr_backup.py'```
+7. Add the tumblr that you want to backup to the end of the line. ```'/Users/yourcoolname/Downloads/tumblr-utils-master/tumblr_backup.py' taylorswift```
+8. This will back up the tumblr URL
 
-### License
+![alt text](https://github.com/targaryens/tumblr-utils/blob/master/terminal.png)
 
-[GPL3](http://www.gnu.org/licenses/gpl-3.0.txt).
+9. Once it has finished backing up, you will see a folder with the blogname in your folders
+
+![alt text](https://github.com/targaryens/tumblr-utils/blob/master/folders.png)
